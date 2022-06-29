@@ -55,7 +55,7 @@ ROOT_URLCONF = 'moscotechh.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["blog.templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
